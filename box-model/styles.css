@@ -1,5 +1,6 @@
 body {
 min-width: 960;
+min-height: 2380px;
 }
 
 h1 {
@@ -22,44 +23,41 @@ h2 {
     font-size: 31px;
     margin-top: -60px;
 }
+h1, h2 { margin: 0; }
 
+header h2 {
+    padding-bottom: 180px
+}
 body > header {
     background-image: url(https://gradients.design/public/uploads/files/v6.png);
     background-position: center;
     background-size: cover;
-    padding: 0% 0% 12.5% 0%;
 }
 
 h3 {
     font-family: 'Archivo Narrow', sans-serif;
-    color: whitesmoke;
+    color: red;
     text-align: center;
     font-weight: 520;
-    font-size: 42px;
-    margin-top: 15px;
+    font-size: 40px;
 }
 
 .main {
     background-color: palevioletred;
-    padding-top: 5px; 
-    height: 720px;
-    padding-bottom: 15px;
+    padding-bottom: 25px auto;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 10px
 
 }
   
 #first {
     font-family: 'Archivo Narrow', sans-serif;
     color: navy;
-    float: left;
     font-weight: 550;
     font-size: 16.75px;
     line-height: 30px;
-    margin-top: -40px;
-    margin-left: 230px;
-    margin-right: 240px;
-    float: left;
-    padding: 10px;
-    shape-outside: ellipse();
+
 }
 
 
@@ -68,18 +66,40 @@ h3 {
     width: 400px;
     height: 300px ;
     float: right; 
-    margin: 15px -25px 0px 0px; 
+    margin: -10px 5px 0px 0px; 
     padding: 10px;
 }
 
 h4 {
     font-family: 'Archivo Narrow', sans-serif;
-    color: whitesmoke;
+    color: black;
     text-align: center;
     font-weight: 520;
-    font-size: 4200px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-top: -45px;
+    padding-top: 72px;
 
+}
+
+.grid {
+display: grid;
+display: inline-block;
+grid-template-columns: 1fr 1fr;
+padding: 0%;
+width: 100%;
+}
+
+.grid li {
+    display: block;
+    margin-bottom: 22px;
+    color: brown;
+}
+
+.shoe {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
 }
 
 
