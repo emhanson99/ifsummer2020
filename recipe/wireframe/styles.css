@@ -1,0 +1,97 @@
+body {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    background-color: powderblue; 
+}
+
+
+
+
+
+  h1 { font-size: 2rem; }
+
+  @media (max-width: 500px) {
+    h1 { font-size: 1.5rem; }
+    
+  }
+  @media (min-width: 640px) {
+    h1 { font-size: 2.5rem; }
+  }
+
+  
+  h2 { font-size: 1.5rem; }
+
+  @media (max-width: 500px) {
+    h2 { font-size: .75rem; }
+    
+  }
+  @media (min-width: 640px) {
+    h2 { font-size: 2rem; }
+  }
+
+p {
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+#stretchable-grid-items li{
+	display: inline-block;
+	vertical-align: top;
+    width: 100%;
+    padding-right: 50px;
+
+}
+#stretchable-grid-items aside{
+	margin: 10%;
+	font-size: 0.8rem;
+	padding: 5px;
+
+}
+
+@media (min-width: 480px){
+	#stretchable-grid-items li{
+		width: 50%;}
+}
+
+@media (min-width: 640px){
+	#stretchable-grid-items li{
+		width: 25%;}
+}
+
+
+#stretchable-grid-items ul{
+	margin: 1rem -10px;
+}
+
+img {
+    width: 3500px;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 60px;
+}
+
+@media (min-width: 480px){
+	img {width: 75%;}
+}
+
+@media (min-width: 640px){
+	img {width: 50%;}
+}
+
+.footer {
+ font-size: 10pt;
+ margin-left: -15;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+@media (min-width: 480px){
+	p {font-size: 15px}
+}
+
+@media (min-width: 640px){
+	p {font-size: 25px}
+}
