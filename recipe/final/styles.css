@@ -1,0 +1,138 @@
+@media (min-width: 640px) {
+    section {
+        display:flex;
+    }
+}
+
+@media (max-width: 640px) {
+    html {
+        align-content: center;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+html {
+    background-image: url(https://www.onlinefabricstore.net/images/product-images/xl/GINCHYEL1-60_1.jpg)
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 40%;
+    height: 300px;
+    border-width: 50px;
+    padding-left: 20px;
+}
+h1 {
+    text-align: center;
+    color: rgb(119, 158, 231);
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+    background-size: 60px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+  
+
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 800;
+    
+}
+
+.ingredients {
+  
+    margin-right: 40px;
+    background-color: rgba(135, 206, 250, 0.9);
+    border-radius: 25px;
+    margin-left:50px;
+
+    
+}
+.instructions {
+    
+    height: 60%;
+    width: 70%;
+    margin-bottom: -50px;
+    background-color: rgba(135, 206, 250, 0.9);
+    border-radius: 25px;
+    margin-right: 50px;
+    padding-right: 30px;
+
+
+}
+
+.stretchable-grid-items {
+    text-align: center;
+    padding-top: 0;
+    
+
+}
+
+path {
+    fill: transparent;
+    margin-bottom: -5000px;
+  }
+li {
+    list-style-type: none;
+}
+.bio {
+    float: left;
+    display: flex;
+    width: 60%;
+    border-radius: 25px;
+    height: 40%;
+    margin-top: 30px;
+    background-color: rgba(135, 206, 250, 0.9);
+
+}
+
+@media (max-width: 640px) {
+    html {
+        margin: auto;
+        padding: auto;
+    }
+}
+
+p {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: larger;
+}
+
+footer {
+    padding-top: 100px;
+    font-size: small;
+}
+
+.head {
+    background-color: none;
+    width: 50%;
+    align-content: center;
+    margin: auto;
+    border-radius: 0%;
+    font-size: 22px;
+}
+
+hr {
+  border: 5px solid  rgb(119, 158, 231);;
+  border-radius: 5px;
+
+}
+
+.oreo {
+    width: 60%;
+    height: 60%
+}
